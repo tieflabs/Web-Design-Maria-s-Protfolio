@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&900display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+ /*importing links fo fonts*/
+
+ *{
+ 	padding: 0;
+ 	margin: 0;
+ 	text-decoration: none;
+ }
+ body{
+ 	font-family: 'Poppins', sans-serif;
+ 	height: 100vh;
+ 	background: linear-gradient(rgb(5 5 22), #080113);
+ }
+/*Page optimization */
+
+nav{
+	background: #020227;
+	height: 80px;
+	width: 100%;
+	backdrop-filter: blur(10px);
+}
+label.log{
+	color: #dc0056;
+	font-size: 40px;
+	line-height: 80px;
+	font-weight: 800;
+	letter-spacing: -0.10px;
+	padding: 0 90px;
+	font-family: 'Gemunu Libre', sans-serif;
+	cursor: pointer;
+}
+nav ul{
+    float: right;
+    margin-right: 350px;
+}
+nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+nav ul li a{
+	color: lavender;
+	font-size: 17px;
+	padding: 7px 13px;
+	font-weight: 800;
+	letter-spacing: 2px;
+	border-radius: 3px;
+}
+a.active, a:hover{
+	background: #dc0056;
+	transition: .5s;
+}
+/*navigation ber / menu*/
+
+
+section{
+	position: absolute;
+	height: 90%;
+	width: 100%;
+	bottom: 0;
+	overflow: hidden;
+}
+.container{
+	position: absolute;
+	width: 500px;
+	height: 450px;
+	transform: translate(250px, 90px);
+}
+.hue{
+	position: absolute;
+	width: 500px;
+	height: 590px;
+	background: url(imgdrop.png);
+	opacity: 0.2;
+	bottom: 3.7%;
+}
+.float{
+	position: absolute;
+	height: 160px;
+	width: 90%;
+	background: #1e1f2bbd;
+	border-radius: 10px;
+	bottom: -10%;
+	backdrop-filter: blur(9px);
+	transform: translate(70px);
+}
+.ViewImg{
+	height: 650px;
+	width: 570px;
+	float: right;
+	position: relative;
+	margin: 45px 1px 22px;
+}
+.name{
+	font-size: 63px;
+	color: lavender;
+}
+.spnname{
+	font-size: 100px;
+	font-weight: 800;
+	color: #dc0056;
+}
+.spnnamespn{
+	font-size: 90px;
+	color: #d74590;
+	font-family: 'Stick No Bills', sans-serif;
+}
+.namespn{
+	color: #fff;
+	font-size: 22px;
+}
+.about{
+	font-size: 16px;
+	color: #fff;
+	font-weight: 200;
+	letter-spacing: 3px;
+}
+.btn{
+	height: 60px;
+	width: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: lavender;
+	margin: 10px 290px;
+	background: rgb(220 0 86);
+	font-size: 20px;
+	cursor: pointer;
+}
+.btn:hover{
+	background: #d6458f;
+}
+.line{
+	position: absolute;
+	height: 1px;
+	width: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #cf3f87;
+	color: lavender;
+	margin-top: 250px;
+	transform: rotate(90deg);
+	font-size: 22px;
+	font-weight: 800;
+}
+.am-mm-dd-yy{
+	font-size: 44px;
+	color: lavender;
+	margin: 34px;
+}
+.am{
+	font-size: 44px;
+	margin: 34px;
+	color: lavender;
+}
+.mm-dd-yy{
+	font-size: 32px;
+	font-weight: bold;
+	margin: 44px;
+	color: lavender;
+	font-family: 'Spartan', sans-serif;
+}
+.dd{
+	color: lavender;
+	font-size: 34px;
+	letter-spacing: 3px;
+}
+/*Optimize & align items, Objects*/ 
